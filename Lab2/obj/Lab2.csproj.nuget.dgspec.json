@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/ProgrammingLogic/lab1/lab1.csproj": {}
+    "/workspaces/ProgrammingLogic/Lab2/Lab2.csproj": {}
   },
   "projects": {
-    "/workspaces/ProgrammingLogic/lab1/lab1.csproj": {
+    "/workspaces/ProgrammingLogic/Lab2/Lab2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/ProgrammingLogic/lab1/lab1.csproj",
-        "projectName": "lab1",
-        "projectPath": "/workspaces/ProgrammingLogic/lab1/lab1.csproj",
+        "projectUniqueName": "/workspaces/ProgrammingLogic/Lab2/Lab2.csproj",
+        "projectName": "Lab2",
+        "projectPath": "/workspaces/ProgrammingLogic/Lab2/Lab2.csproj",
         "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/ProgrammingLogic/lab1/obj/",
+        "outputPath": "/workspaces/ProgrammingLogic/Lab2/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/codespace/.nuget/NuGet/NuGet.Config"
