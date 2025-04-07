@@ -40,13 +40,19 @@ class Program
 
         //Part 2 Boolean Logic
 
+        Console.WriteLine("If its raining you should take an umbrella with you to prevent you from getting wet");
         bool isRaining = true;
+        Console.WriteLine("Its raining today");
         bool haveUmbrella = false;
-        if
+        Console.WriteLine("You do not have an umbrella");
+        if (isRaining && haveUmbrella)
         {
-            
+            Console.WriteLine("Your good to go!");
         }
-
+        else
+        {
+            Console.WriteLine("Take an umbrella!"); 
+        }
 
 
 
@@ -54,7 +60,7 @@ class Program
         //Prompt user for their age
         Console.WriteLine("What is your age? Please enter in numerical form and press the enter key");
         int MyLabThreeUserAge = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine("Your age has been entered  as " + MyLabThreeUserAge);
+        Console.WriteLine("Your age has been entered as " + MyLabThreeUserAge);
 
         //Use logic to decern what the appropriate ticket price is
 
@@ -78,6 +84,46 @@ class Program
         //Part 4 Using a switch Statement
         
         
+        Console.WriteLine("Enter a day of the week in numerical form and press the enter key. Choose from 1-Monday, 2-Tuesday, 3-Wednesday, 4-Thursday, 5-Friday, 6-Saturday, 7-Sunday");
+        int dayOfWeek = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("You have entered " + dayOfWeek);
         
-    }
+        if ( dayOfWeek > 0 && dayOfWeek < 8)
+        {
+            Console.WriteLine("You have entered a valid day");
+            switch (dayOfWeek)
+            {
+                case 1:
+                    Console.WriteLine("Monday");
+                    break;
+                case 2:
+                    Console.WriteLine("Tuesday");
+                    break;
+                case 3:
+                    Console.WriteLine("Wednesday");
+                    break;
+                case 4:
+                    Console.WriteLine("Thursday");
+                    break;
+                case 5:
+                    Console.WriteLine("Friday");
+                    break;
+                case 6:
+                    Console.WriteLine("Saturday");
+                    break;
+                case 7:
+                    Console.WriteLine("Sunday");
+                    break;
+
+            }
+
+        }
+        else
+        {
+            Console.WriteLine("Invalid day! Choose from 1-Monday, 2-Tuesday, 3-Wednesday, 4-Thursday, 5-Friday, 6-Saturday, 7-Sunday");
+        }
+
+
+
+   }
 }
