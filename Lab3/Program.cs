@@ -94,25 +94,25 @@ class Program
             switch (dayOfWeek)
             {
                 case 1:
-                    Console.WriteLine("Monday");
+                    Console.WriteLine("That is Monday");
                     break;
                 case 2:
-                    Console.WriteLine("Tuesday");
+                    Console.WriteLine("That is Tuesday");
                     break;
                 case 3:
-                    Console.WriteLine("Wednesday");
+                    Console.WriteLine("That is Wednesday");
                     break;
                 case 4:
-                    Console.WriteLine("Thursday");
+                    Console.WriteLine("That is Thursday");
                     break;
                 case 5:
-                    Console.WriteLine("Friday");
+                    Console.WriteLine("That is Friday");
                     break;
                 case 6:
-                    Console.WriteLine("Saturday");
+                    Console.WriteLine("That is Saturday");
                     break;
                 case 7:
-                    Console.WriteLine("Sunday");
+                    Console.WriteLine("That is Sunday");
                     break;
 
             }
@@ -120,7 +120,7 @@ class Program
         }
         else
         {
-            Console.WriteLine("Invalid day! Choose from 1-Monday, 2-Tuesday, 3-Wednesday, 4-Thursday, 5-Friday, 6-Saturday, 7-Sunday");
+            Console.WriteLine("You have entered an invalid day! Choose from 1-Monday, 2-Tuesday, 3-Wednesday, 4-Thursday, 5-Friday, 6-Saturday, 7-Sunday");
         }
 
 
