@@ -1,4 +1,5 @@
-﻿using System.Formats.Asn1;
+﻿using System.Collections.Concurrent;
+using System.Formats.Asn1;
 
 namespace Lab3;
 
@@ -10,7 +11,11 @@ class Program
         Console.WriteLine("This is my IT 1050 Lab 3");
 
 
-        //Part 1 Variable Declarations
+
+
+
+
+        //Part 1 Operator Practise
         int MyLabThreeIntA = 10;
         Console.WriteLine("My integer variable A is " + MyLabThreeIntA);
         int MyLabThreeIntB = 5;
@@ -18,8 +23,6 @@ class Program
         int MyLabThreeIntC = 15;
         Console.WriteLine("My integer variable C is " + MyLabThreeIntC);
 
-        
-        //Part 2 Boolean Logic
         //Check to see if A is greater than B
         Console.WriteLine("Is A greater than B? (A > B): " + (MyLabThreeIntA > MyLabThreeIntB));
 
@@ -33,7 +36,21 @@ class Program
         Console.WriteLine("Is A greater than B or is A greater than C? ((A > B)||(A > C)): " + ((MyLabThreeIntA > MyLabThreeIntB)||(MyLabThreeIntA > MyLabThreeIntC)));
 
 
-        //Part 4 Conditional Logic using movie ticket pricing
+
+
+        //Part 2 Boolean Logic
+
+        bool isRaining = true;
+        bool haveUmbrella = false;
+        if
+        {
+            
+        }
+
+
+
+
+        //Part 3 Conditional Logic 
         //Prompt user for their age
         Console.WriteLine("What is your age? Please enter in numerical form and press the enter key");
         int MyLabThreeUserAge = Convert.ToInt32(Console.ReadLine());
@@ -58,7 +75,7 @@ class Program
             Console.WriteLine("Senior Ticket: $6");
         }
         
-        
+        //Part 4 Using a switch Statement
         
         
         
