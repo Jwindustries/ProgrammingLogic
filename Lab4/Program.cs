@@ -43,8 +43,8 @@ class Program
         //Problem 3 : While loop countdown
         Console.WriteLine("This is the start of Part 3");
 
-        int problemThreeInt = 5;
-        while (problemThreeInt >= 1)
+        int problemThreeInt = 6;
+        while (problemThreeInt >= 2)
         {
             Console.WriteLine(problemThreeInt = problemThreeInt - 1);
         }
@@ -54,6 +54,54 @@ class Program
         Console.WriteLine("This is the end of Part 3");
 
 
+        //Problem 4 : Do/While User Input
+        Console.WriteLine("This is the start of Part 4");
+        int problemFourInt = 0;
+        
+
+        do
+        {
+            Console.WriteLine("Enter a number greater than 100");
+            problemFourInt = Convert.ToInt32 (Console.ReadLine());
+
+        }
+        while (problemFourInt <= 100);
+
+        Console.WriteLine("You have entered " + problemFourInt + " which is greater than 100.");
+        Console.WriteLine("This is the end of Part 4");
+        
+
+        //Problem 5 : While Loop - Multiples of 10 to 1000
+
+        Console.WriteLine("This is the start of Part 5");
+
+        int problemFiveInt = 0;
+        do
+        {
+            Console.WriteLine (problemFiveInt = problemFiveInt + 10);
+        }
+        while (problemFiveInt <= 990);
+
+
+        Console.WriteLine("This is the end of Part 5");
+
+
+        //Problem 6 : Pattern Printer (Using Nested Loops)
+
+        Console.WriteLine ("This is the start of Part 6");
+
+        for (int problemSixIntA = 1; problemSixIntA <= 10; problemSixIntA = problemSixIntA + 1)
+        {
+            for (int problemSixIntB = 1; problemSixIntB <= problemSixIntA; problemSixIntB = problemSixIntB + 1)
+            {
+                Console.Write("*");
+            }
+            Console.WriteLine();
+        }
+
+
+
+        Console.WriteLine("This is the end of Part 6");
 
 
 
