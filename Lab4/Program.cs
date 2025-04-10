@@ -9,6 +9,7 @@ class Program
     {
         Console.WriteLine("Hello! This is my IT 1050 week 4 program");
 
+        Console.WriteLine("-------------------------------------------------------------------------------------");
         //Problem 1 : Simple For Loop
         Console.WriteLine("This is Part 1");
         for (int problemOneInt = 1; problemOneInt <= 10; problemOneInt = problemOneInt + 1)
@@ -18,6 +19,7 @@ class Program
         }
         Console.WriteLine("This is the end of Part 1");
 
+        Console.WriteLine("-------------------------------------------------------------------------------------");
         //Problem 2 : Even numbers from 1 to 20 (Using Modulus Operator)
         Console.WriteLine("This is Part 2");
         
@@ -25,7 +27,7 @@ class Program
         {
             if (problemTwoInt == 1)
                 {
-                    Console.WriteLine(problemTwoInt);
+                    // Console.WriteLine(problemTwoInt); Redacted this line because post check showed that I am not to print out the number "1" 
                 }
             else if (problemTwoInt % 2 == 0)
                 {
@@ -40,6 +42,7 @@ class Program
         }   
         Console.WriteLine("This is the end of Part 2");
 
+        Console.WriteLine("-------------------------------------------------------------------------------------"); 
         //Problem 3 : While loop countdown
         Console.WriteLine("This is the start of Part 3");
 
@@ -53,7 +56,7 @@ class Program
 
         Console.WriteLine("This is the end of Part 3");
 
-
+        Console.WriteLine("-------------------------------------------------------------------------------------");
         //Problem 4 : Do/While User Input
         Console.WriteLine("This is the start of Part 4");
         int problemFourInt = 0;
@@ -70,7 +73,7 @@ class Program
         Console.WriteLine("You have entered " + problemFourInt + " which is greater than 100.");
         Console.WriteLine("This is the end of Part 4");
         
-
+        Console.WriteLine("-------------------------------------------------------------------------------------");
         //Problem 5 : While Loop - Multiples of 10 to 1000
 
         Console.WriteLine("This is the start of Part 5");
@@ -85,7 +88,7 @@ class Program
 
         Console.WriteLine("This is the end of Part 5");
 
-
+        Console.WriteLine("-------------------------------------------------------------------------------------");
         //Problem 6 : Pattern Printer (Using Nested Loops)
 
         Console.WriteLine ("This is the start of Part 6");
