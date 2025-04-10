@@ -43,7 +43,11 @@ class Program
         //Problem 3 : While loop countdown
         Console.WriteLine("This is the start of Part 3");
 
-        while (my)
+        int problemThreeInt = 5;
+        while (problemThreeInt >= 1)
+        {
+            Console.WriteLine(problemThreeInt = problemThreeInt - 1);
+        }
 
 
 
